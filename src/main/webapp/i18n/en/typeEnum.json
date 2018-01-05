@@ -1,0 +1,11 @@
+{
+    "questtestApp": {
+        "TypeEnum" : {
+            "null": "",
+            "CHAR": "CHAR",
+            "INTG": "INTG",
+            "DATE": "DATE",
+            "LIST": "LIST"
+        }
+    }
+}

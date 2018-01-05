@@ -42,6 +42,14 @@ public class CacheConfiguration {
             cm.createCache(it.etianus.quest.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(it.etianus.quest.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(it.etianus.quest.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.Schema1.class.getName(), jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.Schema1.class.getName() + ".fields", jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.Schema1.class.getName() + ".answers", jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.SchemaField.class.getName(), jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.SchemaAnswer.class.getName(), jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.SchemaAnswer.class.getName() + ".answerFields", jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.SchemaAnswerField.class.getName(), jcacheConfiguration);
+            cm.createCache(it.etianus.quest.domain.Person.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

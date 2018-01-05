@@ -1,0 +1,26 @@
+{
+    "questtestApp": {
+        "schemaField" : {
+            "home": {
+                "title": "Schema Fields",
+                "createLabel": "Create a new Schema Field",
+                "createOrEditLabel": "Create or edit a Schema Field"
+            },
+            "created": "A new Schema Field is created with identifier {{ param }}",
+            "updated": "A Schema Field is updated with identifier {{ param }}",
+            "deleted": "A Schema Field is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Schema Field {{ id }}?"
+            },
+            "detail": {
+                "title": "Schema Field"
+            },
+            "code": "Code",
+            "description": "Description",
+            "fieldOrder": "Field Order",
+            "fieldType": "Field Type",
+            "valueListCode": "Value List Code",
+            "schema1": "Schema 1"
+        }
+    }
+}
